@@ -1,0 +1,19 @@
+{
+  "name": "intro-js",
+  "version": "1.0.0",
+  "description": "Personal CV Site - 典雅風格的個人履歷網站",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "cv",
+    "portfolio",
+    "resume"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
