@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initParallax();
     initScrollAnimations();
     initHeroParallax();
+    initTimeline();
 });
 
 // ===== 導覽列功能 =====
@@ -321,5 +322,19 @@ function initHeroParallax() {
                 heroText.style.transform = `translateY(${parallaxSpeed * 0.3}px)`;
             }
         }
+    });
+}
+
+// ===== 時間線切換功能 =====
+function initTimeline() {
+    const timelineToggles = document.querySelectorAll('.timeline-toggle');
+    
+    timelineToggles.forEach(toggle => {
+        toggle.addEventListener('click', () => {
+            const timelineItem = toggle.closest('.timeline-item');
+            if (timelineItem) {
+                timelineItem.classList.toggle('active');
+            }
+        });
     });
 }
