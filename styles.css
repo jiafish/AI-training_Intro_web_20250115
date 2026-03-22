@@ -159,6 +159,11 @@ body {
     color: var(--color-dark);
 }
 
+.block-2 .section-title,
+.block-6 .section-title {
+    color: var(--color-white);
+}
+
 /* ===== Block 1: Hero ===== */
 .block-1 {
     background: var(--color-white);
@@ -670,7 +675,7 @@ body {
 
 /* ===== Block 2: 半年規劃 ===== */
 .block-2 {
-    background-color: var(--color-dark-gray);
+    background-color: var(--color-dark);
 }
 
 .plan-cards {
@@ -820,7 +825,7 @@ body {
 }
 
 .block-6 {
-    background-color: var(--color-dark-gray);
+    background-color: var(--color-dark);
 }
 
 .resume-content,
